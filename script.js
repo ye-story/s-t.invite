@@ -11,14 +11,14 @@ const id = urlParams.get('id');
 
 const baseImgPath = './img/guests/';
 
-if (+id && !isNaN(+id) && (+id <= 52) && (+id > 0)) { 
+if (+id && !isNaN(+id) && (+id <= 5) && (+id > 0)) { 
   // img1.src = baseImgPath + `1_${id}.jpg`;
-  img2.src = baseImgPath + `2_${id}.jpg`;
+  img1.src = baseImgPath + `1_${id}.jpg`;
   // img3.src = baseImgPath + '3.jpg';
   // img4.src = baseImgPath + '4.jpg';
 }
 else {
-  img2.src = `./img/2.jpg`;
+  img1.src = `./img/1.jpg`;
 }
 
 const imgs = [...document.querySelectorAll('.img-wrapper img')];
