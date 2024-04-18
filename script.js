@@ -11,7 +11,7 @@ const id = urlParams.get('id');
 
 const baseImgPath = './img/guests/';
 
-if (+id && !isNaN(+id) && (+id <= 5) && (+id > 0)) { 
+if (+id && !isNaN(+id) && (+id <= 6) && (+id > 0)) { 
   // img1.src = baseImgPath + `1_${id}.jpg`;
   img1.src = baseImgPath + `1_${id}.jpg`;
   // img3.src = baseImgPath + '3.jpg';
